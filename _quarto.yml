@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jenny Shen"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: Jenny_Shen_2023_Resume.pdf
+        text: Resume
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+
+
+
